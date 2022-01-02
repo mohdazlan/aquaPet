@@ -93,3 +93,24 @@ font-size: 1.5rem;}
 #pricing {
     padding: 60px;
 }
+
+#download{
+    background: #ff4671;
+    color: white;
+    padding: 7%;
+}
+
+#download-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 30px;
+    text-align: center;
+    font-family: "ubuntu"; 
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
