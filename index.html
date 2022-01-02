@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aqua Pet Store | Bootstrap 101 class</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&family=Ubuntu:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f5a9d5412a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="title">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">aquapet</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Swag
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Cats</a></li>
+                    <li><a class="dropdown-item" href="#">Fishes</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Hamster</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col">
+            <h1 class="specialtitle">
+              Meet new and interesting pets to take home
+            </h1>
+            <button
+              type="button"
+              class="btn btn btn-dark btn-lg download-button"
+            >
+              <i class="fab fa-google-play"></i>Download</button
+            ><button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fab fa-app-store-ios"></i>Download
+            </button>
+          </div>
+          <div class="col">
+            <img class="title-image" src="img/iphone6-x.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-frog fa-5x icon"></i>
+          <h3 class="smallheading">An App to search pets!!</h3>
+          <p>
+            Nullam odio metus, maximus non nunc nec, tempor pretium odio. Nunc
+            vitae velit non diam venenatis auctor. Ut aliquam elementum odio et
+            facilisis.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-cat fa-5x icon"></i>
+          <h3 class="smallheading">Nullam odio metus, maximus n</h3>
+          <p>
+            Nunc eleifend aliquam ipsum, a varius orci ornare ac. Suspendisse
+            condimentum tincidunt est. Phasellus tincidunt diam eget feugiat
+            facilisis. Aliquam auctor non risus blandit facilisis. Pellentesqu
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-crow fa-5x icon"></i>
+          <h3 class="smallheading">Nullam odio metus, maximus n</h3>
+          <p>
+            Nunc eleifend aliquam ipsum, a varius orci ornare ac. Suspendisse
+            condimentum tincidunt est. Phasellus tincidunt diam eget feugiat
+            facilisis. Aliquam auctor non risus blandit facilisis. Pellentesqu
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div id="testimonials">
+      <h2>
+        Donec luctus porta vestibulum. Integer tellus libero, mattis vel
+        ultrices quis, finibus ut mi.
+      </h2>
+      <img id="testimonial-image" src="img/zlatan.jpg" />
+      <em>Ranau, Sabah</em>
+    </div>
+
+    <!-- Press -->
+    <div id="press">
+      <img class="press-logo" src="img/TechCrunch.png" />
+      <img class="press-logo" src="img/tnw.png" />
+      <img class="press-logo" src="img/bizinsider.png" />
+      <img class="press-logo" src="img/mashable.png" />
+    </div>
+  </body>
+</html>
